@@ -11,7 +11,7 @@ else if (consumo_combustible < 10 && consumo_combustible > 8) {
     console.log(`Tu consumo ${consumo_combustible}L c/100km, lo cual se considera consumo dentro de la media`);
 }
 else {
-    console.log(`Tu consumo ${consumo_combustible}L c/100km,  tu consumo está por debajo de la media, excelente!`);
+    console.log(`Tu consumo ${consumo_combustible}L c/100km,  el cual está por debajo de la media, excelente!`);
 }
 
 
