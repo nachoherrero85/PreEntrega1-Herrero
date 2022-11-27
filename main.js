@@ -15,7 +15,7 @@ else {
 }
 
 
-let segmento = prompt("ingrese el segmento con el que quiere comparar para ver cual modelo de ese grupo se asemeja a su consumo: COMPACTO, MEDIO, GRANDE (Mayúscula o minúscula)").toUpperCase();
+let segmento = prompt("Ingrese el segmento con el que quiere comparar para ver cual modelo de ese grupo se asemeja a su consumo: COMPACTO, MEDIO, GRANDE (Mayúsculas o minúsculas)").toUpperCase();
 
 switch (segmento) {
     case "GRANDE":
@@ -46,7 +46,7 @@ switch (segmento) {
         }
         break;
     default:
-        alert("Por favor use las opciones disponibles");
+        alert("Por favor use las opciones disponibles y vuelva a intentarlo, gracias!");
         break;
 
 
