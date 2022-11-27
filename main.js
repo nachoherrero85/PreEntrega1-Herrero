@@ -5,13 +5,13 @@ let consumo_combustible = parseInt((tanque / distancia_recorrida) * 100);
 let modeloSimilar;
 
 if (consumo_combustible > 10) {
-    console.log(`Tu consumo ${consumo_combustible}L c/100 KM, estas por encima de la media`);
+    console.log(`Tu consumo ${consumo_combustible}L c/100 KM, tu consumo está por encima de la media`);
 }
 else if (consumo_combustible < 10 && consumo_combustible > 8) {
-    console.log(`Tu consumo ${consumo_combustible}L c/100km, lo cual se considera dentro de la media`);
+    console.log(`Tu consumo ${consumo_combustible}L c/100km, lo cual se considera consumo dentro de la media`);
 }
 else {
-    console.log(`Tu consumo ${consumo_combustible}L c/100km,  estas excelente`);
+    console.log(`Tu consumo ${consumo_combustible}L c/100km,  tu consumo está por debajo de la media, excelente!`);
 }
 
 
