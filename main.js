@@ -20,11 +20,11 @@ let segmento = prompt("Ingrese el segmento con el que quiere comparar para ver c
 switch (segmento) {
     case "GRANDE":
         if (consumo_combustible > 10) {
-            modeloSimilar = "Haval H6,Jeep Compass,FIAT Toro,Jeep Renegade ";
+            modeloSimilar = "Haval H6, Jeep Compass, FIAT Toro, Jeep Renegade ";
         } else if (consumo_combustible < 10 && consumo_combustible > 8) {
             modeloSimilar = "Chevrolet Equinox, Hyundai Kona";
         } else {
-            modeloSimilar = "VW Tiguan Allspace,Peugeot 308 S GT";
+            modeloSimilar = "VW Tiguan Allspace, Peugeot 308 S GT";
         }
         break;
     case "MEDIO":
