@@ -1,6 +1,6 @@
-alert("Vamos a pedirte un par de datos para calcular el consumo de tu auto y que modelos tienen consumo similar, los cuales seran mostrados en consola");
+alert("Vamos a pedirte un par de datos para calcular el consumo de tu auto y que modelos tienen consumo similar, los cuales seran mostrados en consola. Referencia: Se considera dentro de la media consumos entre 8L y 10L cada 100 km");
 let tanque = parseInt(prompt("Cual es la capacidad de tu tanque en litros?"));
-let distancia_recorrida = parseInt(prompt("Cuanto recorriste con el tanque?"));
+let distancia_recorrida = parseInt(prompt("Cuanto recorriste con el tanque?. En kilometros"));
 let consumo_combustible = parseInt((tanque / distancia_recorrida) * 100);
 let modeloSimilar;
 
